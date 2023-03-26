@@ -1,0 +1,29 @@
+.main img{
+ border-radius: 10px;
+ position: relative;
+ object-fit: cover;
+}
+.main button{
+    position: absolute;
+    top: 35%;
+    z-index: 300;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 70px;
+}
+.minus{
+    margin-left: -15px;
+}
+.plus{
+    margin-left:470px ;
+}
+.allImg img{
+    width: 100px;
+    height: 100px;
+}
+.ikx{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 470px;
+    cursor: pointer;
+}

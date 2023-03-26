@@ -1,0 +1,40 @@
+.MImg{
+    width: 500px;
+    border-radius: 10px;
+    height: 600px;   
+    cursor: pointer;
+}
+.AllPIC img{
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+  
+}
+.ClickedPic {
+    border:black 2px solid;
+    filter: grayscale(70%);
+}
+.removeClass{
+    border: 0px;
+    filter:grayscale(0%) ;
+}
+.main{
+    position: relative;
+}
+.minus{
+    position: absolute;
+    top: 33%;
+    margin-left: -10px;
+    border: none;
+    font-size: 40px;
+    background-color: rgba(240, 248, 255, 0.411);
+}
+.plus{
+    position: absolute;
+    top: 32%;
+    margin-left: -10px;
+    font-size: 40px;
+    background-color: rgba(240, 248, 255, 0.411);
+    border: none;
+}
